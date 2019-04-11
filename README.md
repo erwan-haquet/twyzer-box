@@ -1,4 +1,4 @@
-Twitch Scrutinizer Box
+TILER Box
 ===========================
 
 Requirements
@@ -15,8 +15,8 @@ Installation
 ##### Clone the repository :
 
 ```bash
-git clone git@gitlab.com:ehaquet.dev/twitch-scrutinizer-infrastructure.git twitch-scrutinizer-infrastructure
-cd twitch-scrutinizer-infrastructure
+git clone git@github.com:erwan-haquet/tiler-box.git tiler
+cd tiler
 ```
 
 ##### Build the box :
