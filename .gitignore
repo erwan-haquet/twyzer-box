@@ -1,0 +1,8 @@
+.idea/
+.env
+
+observer/
+orchestrator/
+
+!docker/observer
+!docker/orchestrator

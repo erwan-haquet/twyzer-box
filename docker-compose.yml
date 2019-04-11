@@ -1,0 +1,41 @@
+version: '3'
+
+networks:
+    default:
+        driver: bridge
+
+services:
+
+    #
+    # Service Orchestrator
+    #
+    orchestrator:
+        build: docker/orchestrator
+        container_name: docker_orchestrator
+        volumes:
+            - ./orchestrator:/usr/src/orchestrator
+        networks:
+            - default
+
+    #
+    # Service Observer
+    #
+    observer:
+        build: docker/observer
+        container_name: docker_observer
+        volumes:
+            - ./observer:/usr/src/observer
+        links:
+            - rabbitmq
+        networks:
+            - default
+
+    #
+    # Infrastructure
+    #
+    rabbitmq:
+        build: docker/rabbitmq
+        container_name: docker_rabbitmq
+        labels:
+            NAME: rabbitmq
+
