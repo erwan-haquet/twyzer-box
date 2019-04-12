@@ -29,13 +29,13 @@ cd twyzer
 Usage
 ---
 
-##### Access Observer Service console :
+##### Access [Observer Service](https://github.com/erwan-haquet/twyzer-observer) console :
 
 ```bash
 ./runner.sh observer
 ```
 
-##### Access Orchestrator Service console :
+##### Access [Orchestrator Service](https://github.com/erwan-haquet/twyzer-orchestrator) console :
 
 ```bash
 ./runner.sh orchestrator
