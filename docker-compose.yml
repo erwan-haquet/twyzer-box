@@ -38,4 +38,5 @@ services:
         container_name: docker_rabbitmq
         labels:
             NAME: rabbitmq
-
+        ports:
+            - $RABBITMQ_PORT:15672
