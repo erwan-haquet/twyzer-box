@@ -1,4 +1,4 @@
-TILER Box
+Twyzer Box
 ===========================
 
 Requirements
@@ -15,8 +15,8 @@ Installation
 ##### Clone the repository :
 
 ```bash
-git clone git@github.com:erwan-haquet/tiler-box.git tiler
-cd tiler
+git clone git@github.com:erwan-haquet/twyzer-box.git twyzer
+cd twyzer
 ```
 
 ##### Build the box :

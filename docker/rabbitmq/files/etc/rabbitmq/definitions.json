@@ -10,13 +10,13 @@
   ],
   "vhosts": [
     {
-      "name": "/tiler"
+      "name": "/twyzer"
     }
   ],
   "permissions": [
     {
       "user": "guest",
-      "vhost": "/tiler",
+      "vhost": "/twyzer",
       "configure": ".*",
       "write": ".*",
       "read": ".*"
